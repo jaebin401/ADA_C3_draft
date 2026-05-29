@@ -40,14 +40,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		19A16B372FC81E9E00D0B6F5 /* C3 result draft */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "C3 result draft";
-			sourceTree = "<group>";
-		};
 		19A16B462FC81E9F00D0B6F5 /* C3 result draft Watch App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "C3 result draft Watch App";
+			sourceTree = "<group>";
+		};
+		19A16C322FC963B600D0B6F5 /* C3 result draft */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "C3 result draft";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -73,7 +73,7 @@
 		19A16B2C2FC81E9E00D0B6F5 = {
 			isa = PBXGroup;
 			children = (
-				19A16B372FC81E9E00D0B6F5 /* C3 result draft */,
+				19A16C322FC963B600D0B6F5 /* C3 result draft */,
 				19A16B462FC81E9F00D0B6F5 /* C3 result draft Watch App */,
 				19A16B362FC81E9E00D0B6F5 /* Products */,
 			);
@@ -106,7 +106,7 @@
 				19A16B452FC81E9F00D0B6F5 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				19A16B372FC81E9E00D0B6F5 /* C3 result draft */,
+				19A16C322FC963B600D0B6F5 /* C3 result draft */,
 			);
 			name = "C3 result draft";
 			packageProductDependencies = (
