@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  MainView.swift
 //  C3 result draft
 //
 //  Created by Jaebin Ahn on 5/28/26.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MainView: View {
     var body: some View {
         NavigationStack {
             TabView {
@@ -29,5 +29,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    MainView()
 }
