@@ -23,7 +23,7 @@ struct MainView: View {
                     .tabItem {
                         Label("My", systemImage: "person.fill")
                     }
-            }.navigationTitle("Home")
+            }.navigationTitle("HomeHome")
         }
     }
 }
