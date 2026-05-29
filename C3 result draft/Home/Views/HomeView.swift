@@ -11,17 +11,9 @@ struct HomeView: View {
     
     var body: some View {
         VStack() {
-            NavigationLink
-            {
+            Spacer()
+            CheecahButton(title: "치카") {
                 CheecahView()
-            }
-            label: {
-                Text("지금 양치하러 가기 🫧")
-                    .font(.headline)
-                    .foregroundColor(.white)
-                    .padding()
-                    .background(Color.blue)
-                    .cornerRadius(12)
             }
         }
     }
