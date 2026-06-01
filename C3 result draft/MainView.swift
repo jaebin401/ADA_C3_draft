@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct MainView: View {
     var body: some View {
@@ -30,4 +31,5 @@ struct MainView: View {
 
 #Preview {
     MainView()
+        .modelContainer(for: CheecahData.self)
 }

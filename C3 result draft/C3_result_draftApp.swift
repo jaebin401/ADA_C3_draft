@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct C3_result_draftApp: App {
@@ -13,5 +14,6 @@ struct C3_result_draftApp: App {
         WindowGroup {
             MainView()
         }
+        .modelContainer(for: CheecahData.self)
     }
 }

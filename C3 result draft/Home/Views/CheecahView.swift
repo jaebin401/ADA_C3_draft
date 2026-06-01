@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct CheecahView: View {
+    @Environment(\.modelContext) private var context
     var body: some View {
         Text("this is cheecah view")
     }
@@ -15,4 +16,5 @@ struct CheecahView: View {
 
 #Preview {
     CheecahView()
+        .modelContainer(for: CheecahData.self)
 }
