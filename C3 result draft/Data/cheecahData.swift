@@ -8,7 +8,7 @@
 import Foundation
 import SwiftData
 
-enum CheecahRound: Int {
+enum CheecahRound: Int, Codable {
     case first = 1
     case second = 2
 }
@@ -22,6 +22,7 @@ class CheecahData {
     var feedback: String
     var upperTooth: [Int] = []
     var lowerTooth: [Int] = []
+    var isStop: Bool = false
     
     init(date: Date, round: CheecahRound) {
         self.cheecahDate = date
